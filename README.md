@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+# 📢 Campus Portal – Tech Updates & Utilities
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A dynamic campus utility platform designed using **React**, **Tailwind CSS**, and **MongoDB**, offering students real-time updates, announcements, tech news, and useful tools like polls, feedback, and lost & found.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 📚 **Announcements** – Stay updated with official campus updates  
+- 🧠 **Tech Feed** – Hackathons, internships, tech news  
+- 📊 **Polls & Feedback** – Interactive polling system  
+- 🕒 **Timetable Viewer** – Daily class schedule access  
+- 🎒 **Lost & Found** – Manage or report lost items  
+- 🧾 **Complaints Portal** – Submit issues directly  
+- 🎥 **Video Assets** – Background videos/images support  
+- 🔐 **Auth Context** – Login & access management  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+| Technology       | Usage                               |
+|------------------|--------------------------------------|
+| **React.js**     | Frontend SPA framework               |
+| **Tailwind CSS** | Modern utility-first styling         |
+| **MongoDB**      | NoSQL database (backend integration) |
+| **Vercel**       | Deployment platform (frontend)       |
+| **GitHub**       | Version control & collaboration      |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📁 Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+├── public/
+├── src/
+│ ├── assets/ # Images & videos
+│ ├── components/ # UI components (Auth, Layout, etc.)
+│ ├── context/ # Auth context provider
+│ ├── pages/ # Main pages (Dashboard, Tech, Polls, etc.)
+│ ├── services/ # API & utility services
+│ ├── App.jsx # Main app component
+│ ├── index.js # App entry point
+│ └── index.css # Global styles
+├── .env # Environment variables
+├── tailwind.config.js # Tailwind configuration
+├── vercel.json # Vercel deployment config
+└── README.md # Project documentation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+yaml
+Copy
+Edit
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🔧 Setup Instructions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone the repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Configure environment
+Create a .env file based on .env.example and add your variables (like MongoDB URI, etc).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server
+bash
+Copy
+Edit
+npm start
+The app will be available at http://localhost:3000/
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🚀 Deployment
+This project is deployed via Vercel.
 
-## Learn More
+To deploy:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+Copy
+Edit
+vercel --prod
+Or connect your GitHub repo to Vercel for CI/CD deployment.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🤝 Contributing
+Fork the repository
 
-### Code Splitting
+Create your feature branch: git checkout -b feat/YourFeature
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Commit your changes: git commit -m 'Add new feature'
 
-### Analyzing the Bundle Size
+Push to the branch: git push origin feat/YourFeature
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Open a Pull Request
 
-### Making a Progressive Web App
+📄 License
+This project is licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+✨ Acknowledgements
+React Docs – https://react.dev
 
-### Advanced Configuration
+Tailwind CSS – https://tailwindcss.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+MongoDB Atlas – https://www.mongodb.com/cloud/atlas
 
-### Deployment
+Vercel Docs – https://vercel.com/docs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
