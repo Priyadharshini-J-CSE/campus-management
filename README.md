@@ -46,10 +46,6 @@ A dynamic campus utility platform designed using **React**, **Tailwind CSS**, an
 ├── vercel.json # Vercel deployment config
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🔧 Setup Instructions
