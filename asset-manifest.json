@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/campus-management/static/css/main.596aaec1.css",
+    "main.js": "/campus-management/static/js/main.61ea7cef.js",
+    "index.html": "/campus-management/index.html",
+    "main.596aaec1.css.map": "/campus-management/static/css/main.596aaec1.css.map",
+    "main.61ea7cef.js.map": "/campus-management/static/js/main.61ea7cef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.596aaec1.css",
+    "static/js/main.61ea7cef.js"
+  ]
+}
